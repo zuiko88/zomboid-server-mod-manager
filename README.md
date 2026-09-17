@@ -2,6 +2,8 @@
 
 `build-mods.sh` discovers Project Zomboid mods installed on the local machine through the Steam Workshop, updates the configured server INI file setting both WorkshopItems and Mods, packages the Workshop content, and copies the generated files to a remote server. It is designed for a linux client (where this is run) and a linux server (where the files are pushed to). The mods are pushed to the server in a tar.gz that can be extracted to the zomboid server mods directory.
 
+You also have the ability to force certain mods to appear at the start of the mods list and to prevent mods from being loaded (such as in the case where multiple mods are packed in a single workshop item and only one should be loaded at a time). This is all configured via the json.
+
 ## What the script does
 
 When run, the script:
