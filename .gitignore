@@ -1,0 +1,4 @@
+grab-sandbox-settings.sh
+*.tar.gz
+zomboid-configs/*
+build-mods.json
