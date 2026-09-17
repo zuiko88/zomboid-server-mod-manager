@@ -1,0 +1,23 @@
+{
+  "paths": {
+    "workshop_dir": "/media/data/SteamLibrary/steamapps/workshop/content/108600",
+    "ini_file": "$HOME/zomboid-server-mod-manager/zomboid-configs/servertest.ini",
+    "archive": "$HOME/zomboid-server-mod-manager/output/zomboid-mods.tar.gz",
+    "temp_dir": "/tmp"
+  },
+  "remote": {
+    "configs": "user@server:/home/user/Zomboid/Server",
+    "archive": "user@server:/home/user"
+  },
+  "mods": {
+    "blacklist": [
+      "MoodleEffectsExplainedExpandedMoodlesB42"
+    ],
+    "priority": [
+      "ChuckleberryFinnAlertSystem",
+      "errorMagnifier",
+      "NeatUI_Framework",
+      "StarlitLibrary"
+    ]
+  }
+}
