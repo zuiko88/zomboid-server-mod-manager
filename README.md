@@ -1,6 +1,6 @@
 # Zomboid Server Mod Manager
 
-`build-mods.sh` discovers Project Zomboid mods installed through the Steam Workshop, updates the configured server INI file, packages the Workshop content, and copies the generated files to a remote server.
+`build-mods.sh` discovers Project Zomboid mods installed on the local machine through the Steam Workshop, updates the configured server INI file setting both WorkshopItems and Mods, packages the Workshop content, and copies the generated files to a remote server. It is designed for a linux client (where this is run) and a linux server (where the files are pushed to). The mods are pushed to the server in a tar.gz that can be extracted to the zomboid server mods directory.
 
 ## What the script does
 
